@@ -1,0 +1,18 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+placement =pd.read_csv('dataset.csv')
+placement.head(5)
+placement.describe(include='all')
+
+print(placement.std())
+print('-------------------------------------')
+print(placement.median())
+
+placement.shape
+placement.tail(5)
+placement.info
+placement.sum
+placement.describeplacement.drop
